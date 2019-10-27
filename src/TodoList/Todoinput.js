@@ -14,7 +14,7 @@ export default class Tdoinput extends Component {
     }
     handleChange=(e)=>{
         this.setState({
-            n1: e.target.value
+            [e.target.name]: e.target.value
         })
     }
     render() {
